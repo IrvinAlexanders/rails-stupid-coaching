@@ -13,3 +13,31 @@
  *= require_tree .
  *= require_self
  */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap");
+
+.container-main {
+  background-color: lightblue;
+  width: 50%;
+  border: 1px;
+  border-color: black;
+  border-radius: 10px;
+}
+
+.container-question {
+  border-radius: 5px;
+  width: 30%;
+  background-color: lightgray;
+}
+
+.container-ask {
+  background-color: lightyellow;
+  width: 50%;
+  border: 1px;
+  border-color: black;
+  border-radius: 10px;
+}
+
+.link {
+  color: black;
+  text-decoration: none;
+}

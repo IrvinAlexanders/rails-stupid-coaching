@@ -1,13 +1,18 @@
-<div>
-  <span><%= @question %></span>
-  <span><em>You</em></span>
-</div>
+<div class="container-main">
+  <div class="container-question pb-3">
+    <span class="main"><%= @question %></span>
+    <br>
+    <span class="sender"><em>- You</em></span>
+  </div>
 
-<div>
-  <span><strong><%= @answer %></strong></span>
-  <span><em>Your coach</em></span>
-</div>
+  <div class="container-ask pb-3 d-flex justify-content-end">
+    <span class="main"><strong><%= @answer %></strong></span>
+    <br>
+    <span class="sender"><em>- Your coach</em></span>
+  </div>
 
-<div>
-  <a href="/ask">Ask a new question</a>
+  <div class="btn btn-primary">
+    <a href="/ask" class="link">Ask a new question</a>
+  </div>
+
 </div>
